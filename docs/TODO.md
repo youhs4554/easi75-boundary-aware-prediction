@@ -8,4 +8,4 @@
 - [x] Exclude raw, row-level, prediction, and attribution data from Git tracking.
 - [x] Complete full 15 × 5 performance, comparator, attribution, figure, and table rerun.
 - [x] Complete the code, figure, table, checksum, privacy, and manuscript-alignment audit.
-- [ ] Initialize Git, create the GitHub repository, and push.
+- [x] Initialize Git, create the public GitHub repository, push, and pass CI.
