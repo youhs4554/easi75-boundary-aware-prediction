@@ -45,6 +45,12 @@ See [Reproducibility](docs/REPRODUCIBILITY.md), [Data](docs/DATA.md), and
 The [release audit](docs/RELEASE_AUDIT.md) records full-rerun parity and the
 remaining manuscript-package discrepancies.
 
+The [core results report](docs/RESULTS_REPORT.md) provides a figure-backed
+summary of the cohort, primary performance, paired comparator tests,
+calibration, boundary analysis, ablation, endpoint sensitivity, feature
+attribution, and interpretation limits, with direct links to every aggregate
+source artifact.
+
 ## Scope
 
 This is an internally validated development study, not a clinically deployable

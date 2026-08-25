@@ -9,3 +9,4 @@
 - [x] Complete full 15 × 5 performance, comparator, attribution, figure, and table rerun.
 - [x] Complete the code, figure, table, checksum, privacy, and manuscript-alignment audit.
 - [x] Initialize Git, create the public GitHub repository, push, and pass CI.
+- [x] Add a traceable, figure-backed report of the paper's core results.
