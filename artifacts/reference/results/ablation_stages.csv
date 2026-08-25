@@ -1,0 +1,6 @@
+stage,label,auroc,shares_score_with_stage3,accuracy_overall,accuracy_near_threshold
+stage1_conventional_logistic,Conventional single-endpoint logistic regression,0.7626780626780627,False,0.6302521008403361,0.5921052631578947
+stage2_neighbouring_cutoffs,One learner fitted across adjacent cut-offs,0.7860398860398861,False,0.7058823529411765,0.6578947368421053
+stage3_five_learner_score,Five learners combined into the response score,0.823931623931624,False,0.7394957983193278,0.7105263157894737
+stage4_band_without_corrector,"Ambiguity band, without the boundary corrector",0.823931623931624,True,0.7394957983193278,0.7105263157894737
+stage5_complete_framework,Complete framework,0.823931623931624,True,0.7563025210084033,0.7368421052631579

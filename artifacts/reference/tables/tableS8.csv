@@ -1,0 +1,6 @@
+Stage,Pipeline configuration,AUROC,Accuracy near boundary
+1. Conventional model,single-endpoint regularised logistic regression,0.763,0.592
+2. Neighbouring cut-offs,one learner fitted across adjacent improvement cut-offs,0.786,0.658
+3. Rank-fused hierarchy,five learners combined by the fixed percentile hierarchy,0.824,0.711
+4. Ambiguity-band routing,"training-fold band, without the corrector",0.824,0.711
+5. Complete framework,boundary corrector applied inside the band,0.824,0.737

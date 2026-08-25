@@ -1,0 +1,405 @@
+{
+  "error_location": {
+    "band_share_of_cohort": 0.6386554621848739,
+    "binomial_one_sided_p": 0.3587800247387062,
+    "error_rate_in_band": 0.2631578947368421,
+    "error_rate_outside_band": 0.20930232558139536,
+    "expected_errors_in_band_if_uniform": 18.521008403361343,
+    "fisher_p": 0.657376688571244,
+    "n_errors_in_band": 20,
+    "n_errors_total": 29,
+    "n_in_band": 76,
+    "n_total": 119,
+    "observed_share_of_errors_in_band": 0.6896551724137931,
+    "reading": "the band holds most of the cohort, so most misclassifications fall in it; the enrichment beyond that share is not separable from chance at this size"
+  },
+  "generated_at_utc": "2026-08-14T14:31:35.029182+00:00",
+  "n_patients": 119,
+  "net_label_change": {
+    "n_changed_to_correct": 5,
+    "n_changed_to_incorrect": 3,
+    "n_patients_with_different_label": 8,
+    "note": "the fold-level corrector acts often, but after the patient-level vote across the fifteen repeats the two rules disagree on this many patients",
+    "patient_indices": [
+      10,
+      19,
+      36,
+      62,
+      67,
+      85,
+      98,
+      100
+    ],
+    "routing_metrics": {
+      "accuracy": 0.7563025210084033,
+      "accuracy_ci_high": 0.8246281488587897,
+      "accuracy_ci_low": 0.6719468721936614,
+      "f1": 0.768,
+      "false_negative": 17,
+      "false_positive": 12,
+      "n": 119,
+      "n_negative": 54,
+      "n_positive": 65,
+      "sensitivity": 0.7384615384615385,
+      "specificity": 0.7777777777777778,
+      "true_negative": 42,
+      "true_positive": 48
+    },
+    "single_cut_point_metrics": {
+      "accuracy": 0.7394957983193278,
+      "accuracy_ci_high": 0.8099827898410129,
+      "accuracy_ci_low": 0.6540299347489825,
+      "f1": 0.7479674796747967,
+      "false_negative": 19,
+      "false_positive": 12,
+      "n": 119,
+      "n_negative": 54,
+      "n_positive": 65,
+      "sensitivity": 0.7076923076923077,
+      "specificity": 0.7777777777777778,
+      "true_negative": 42,
+      "true_positive": 46
+    }
+  },
+  "repeat_variability": {
+    "max_per_seed_auroc": 0.8307692307692308,
+    "mean_per_seed_auroc": 0.799088319088319,
+    "min_per_seed_auroc": 0.7367521367521367,
+    "note": "the pooled estimate is the area under the curve of the averaged score and exceeds the average of the fifteen per-seed areas; both are reported so the gain from averaging is visible rather than folded into one number",
+    "per_seed": [
+      {
+        "auroc": 0.8276353276353277,
+        "seed": 42
+      },
+      {
+        "auroc": 0.8198005698005698,
+        "seed": 7
+      },
+      {
+        "auroc": 0.7719373219373219,
+        "seed": 123
+      },
+      {
+        "auroc": 0.8058404558404558,
+        "seed": 456
+      },
+      {
+        "auroc": 0.8307692307692308,
+        "seed": 789
+      },
+      {
+        "auroc": 0.8038461538461539,
+        "seed": 1
+      },
+      {
+        "auroc": 0.812108262108262,
+        "seed": 2
+      },
+      {
+        "auroc": 0.7767806267806269,
+        "seed": 3
+      },
+      {
+        "auroc": 0.8209401709401708,
+        "seed": 4
+      },
+      {
+        "auroc": 0.7747863247863248,
+        "seed": 5
+      },
+      {
+        "auroc": 0.8168091168091168,
+        "seed": 100
+      },
+      {
+        "auroc": 0.788034188034188,
+        "seed": 200
+      },
+      {
+        "auroc": 0.7367521367521367,
+        "seed": 300
+      },
+      {
+        "auroc": 0.7861823361823361,
+        "seed": 400
+      },
+      {
+        "auroc": 0.8141025641025641,
+        "seed": 500
+      }
+    ],
+    "pooled_auroc": 0.823931623931624,
+    "pooling_gain": 0.024843304843304992,
+    "sd_per_seed_auroc": 0.02605251379482931
+  },
+  "routing": {
+    "band_high_median": 0.65,
+    "band_high_unique": [
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75
+    ],
+    "band_low_median": 0.35,
+    "band_low_unique": [
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55
+    ],
+    "fold_level_change_fraction": 0.10532212885154062,
+    "mean_routed_per_fold": 5.8,
+    "mean_training_patients_in_band": 27.76,
+    "n_folds": 75,
+    "routed_fraction_of_slots": 0.24369747899159663,
+    "total_fold_level_decision_changes": 188,
+    "total_held_out_slots": 1785,
+    "total_routed_slots": 435
+  },
+  "score_band": {
+    "accuracy_difference": -0.15622940013183917,
+    "accuracy_difference_fisher_p": 0.10485351529081008,
+    "band_high": 0.65,
+    "band_low": 0.35,
+    "definition": "patient-average score within the fold-median ambiguity band; a function of the score alone and therefore available at baseline for a new patient",
+    "inside_band": {
+      "accuracy": 0.6486486486486487,
+      "accuracy_ci_high": 0.7817439286607287,
+      "accuracy_ci_low": 0.4875902312255084,
+      "auroc": 0.6235294117647059,
+      "f1": 0.6666666666666666,
+      "false_negative": 7,
+      "false_positive": 6,
+      "n": 37,
+      "n_negative": 17,
+      "n_positive": 20,
+      "response_rate": 0.5405405405405406,
+      "sensitivity": 0.65,
+      "specificity": 0.6470588235294118,
+      "true_negative": 11,
+      "true_positive": 13
+    },
+    "outside_band": {
+      "accuracy": 0.8048780487804879,
+      "accuracy_ci_high": 0.8761710252681838,
+      "accuracy_ci_low": 0.7062981066280967,
+      "auroc": 0.8798798798798799,
+      "f1": 0.813953488372093,
+      "false_negative": 10,
+      "false_positive": 6,
+      "n": 82,
+      "n_negative": 37,
+      "n_positive": 45,
+      "response_rate": 0.5487804878048781,
+      "sensitivity": 0.7777777777777778,
+      "specificity": 0.8378378378378378,
+      "true_negative": 31,
+      "true_positive": 35
+    }
+  },
+  "score_deciles": {
+    "bottom_group_response_rate": 0.0,
+    "bottom_two_groups": {
+      "n": 24,
+      "n_responder": 6,
+      "response_rate": 0.25,
+      "wilson_ci": [
+        0.11999366228595004,
+        0.44899444005154004
+      ]
+    },
+    "cohort_response_rate": 0.5462184873949579,
+    "groups": [
+      {
+        "group": 1,
+        "n": 12,
+        "n_responder": 0,
+        "observed_response_rate": 0.0,
+        "score_max": 0.12112865120274914,
+        "score_min": 0.0179553264604811,
+        "wilson_ci_high": 0.24249400665524085,
+        "wilson_ci_low": 2.7755575615628914e-17
+      },
+      {
+        "group": 2,
+        "n": 12,
+        "n_responder": 6,
+        "observed_response_rate": 0.5,
+        "score_max": 0.2139246849942726,
+        "score_min": 0.12335516895761739,
+        "wilson_ci_high": 0.7462184023662939,
+        "wilson_ci_low": 0.2537815976337061
+      },
+      {
+        "group": 3,
+        "n": 12,
+        "n_responder": 1,
+        "observed_response_rate": 0.08333333333333333,
+        "score_max": 0.3108104238258877,
+        "score_min": 0.21538158648339062,
+        "wilson_ci_high": 0.35387991114111694,
+        "wilson_ci_low": 0.014865094404917095
+      },
+      {
+        "group": 4,
+        "n": 12,
+        "n_responder": 7,
+        "observed_response_rate": 0.5833333333333334,
+        "score_max": 0.39040485395189,
+        "score_min": 0.31595611397479945,
+        "wilson_ci_high": 0.8067396863412435,
+        "wilson_ci_low": 0.31951131254954973
+      },
+      {
+        "group": 5,
+        "n": 12,
+        "n_responder": 4,
+        "observed_response_rate": 0.3333333333333333,
+        "score_max": 0.4985287800687285,
+        "score_min": 0.3905516179839634,
+        "wilson_ci_high": 0.6093779111272004,
+        "wilson_ci_low": 0.13812009109121315
+      },
+      {
+        "group": 6,
+        "n": 12,
+        "n_responder": 7,
+        "observed_response_rate": 0.5833333333333334,
+        "score_max": 0.5843535223367697,
+        "score_min": 0.5119630584192439,
+        "wilson_ci_high": 0.8067396863412435,
+        "wilson_ci_low": 0.31951131254954973
+      },
+      {
+        "group": 7,
+        "n": 12,
+        "n_responder": 9,
+        "observed_response_rate": 0.75,
+        "score_max": 0.6978898195876287,
+        "score_min": 0.5907914518900343,
+        "wilson_ci_high": 0.9110583316059453,
+        "wilson_ci_low": 0.46769466506643426
+      },
+      {
+        "group": 8,
+        "n": 12,
+        "n_responder": 8,
+        "observed_response_rate": 0.6666666666666666,
+        "score_max": 0.7848546678121422,
+        "score_min": 0.7042919530355096,
+        "wilson_ci_high": 0.8618799089087867,
+        "wilson_ci_low": 0.39062208887279953
+      },
+      {
+        "group": 9,
+        "n": 12,
+        "n_responder": 12,
+        "observed_response_rate": 1.0,
+        "score_max": 0.8712002434135168,
+        "score_min": 0.8202516466208478,
+        "wilson_ci_high": 1.0,
+        "wilson_ci_low": 0.7575059933447592
+      },
+      {
+        "group": 10,
+        "n": 11,
+        "n_responder": 11,
+        "observed_response_rate": 1.0,
+        "score_max": 0.9764139461626574,
+        "score_min": 0.8874838917525771,
+        "wilson_ci_high": 1.0,
+        "wilson_ci_low": 0.7411670330319684
+      }
+    ],
+    "n_groups": 10,
+    "top_group_response_rate": 1.0,
+    "top_two_groups": {
+      "n": 23,
+      "n_responder": 23,
+      "response_rate": 1.0,
+      "wilson_ci": [
+        0.8568833815495731,
+        1.0
+      ]
+    }
+  },
+  "score_quintiles": {
+    "bottom_group_response_rate": 0.25,
+    "bottom_two_groups": {
+      "n": 48,
+      "n_responder": 14,
+      "response_rate": 0.2916666666666667,
+      "wilson_ci": [
+        0.18241578926516536,
+        0.431792598095717
+      ]
+    },
+    "cohort_response_rate": 0.5462184873949579,
+    "groups": [
+      {
+        "group": 1,
+        "n": 24,
+        "n_responder": 6,
+        "observed_response_rate": 0.25,
+        "score_max": 0.2139246849942726,
+        "score_min": 0.0179553264604811,
+        "wilson_ci_high": 0.44899444005154004,
+        "wilson_ci_low": 0.11999366228595004
+      },
+      {
+        "group": 2,
+        "n": 24,
+        "n_responder": 8,
+        "observed_response_rate": 0.3333333333333333,
+        "score_max": 0.39040485395189,
+        "score_min": 0.21538158648339062,
+        "wilson_ci_high": 0.5329368316186824,
+        "wilson_ci_low": 0.1797219032729775
+      },
+      {
+        "group": 3,
+        "n": 24,
+        "n_responder": 11,
+        "observed_response_rate": 0.4583333333333333,
+        "score_max": 0.5843535223367697,
+        "score_min": 0.3905516179839634,
+        "wilson_ci_high": 0.6492513464108051,
+        "wilson_ci_low": 0.2789133373121099
+      },
+      {
+        "group": 4,
+        "n": 24,
+        "n_responder": 17,
+        "observed_response_rate": 0.7083333333333334,
+        "score_max": 0.7848546678121422,
+        "score_min": 0.5907914518900343,
+        "wilson_ci_high": 0.8508535180303913,
+        "wilson_ci_low": 0.5083230633550337
+      },
+      {
+        "group": 5,
+        "n": 23,
+        "n_responder": 23,
+        "observed_response_rate": 1.0,
+        "score_max": 0.9764139461626574,
+        "score_min": 0.8202516466208478,
+        "wilson_ci_high": 1.0,
+        "wilson_ci_low": 0.8568833815495731
+      }
+    ],
+    "n_groups": 5,
+    "top_group_response_rate": 1.0,
+    "top_two_groups": {
+      "n": 47,
+      "n_responder": 40,
+      "response_rate": 0.851063829787234,
+      "wilson_ci": [
+        0.7231437757640644,
+        0.9259328000356828
+      ]
+    }
+  },
+  "source": "existing run outputs; nothing refitted"
+}

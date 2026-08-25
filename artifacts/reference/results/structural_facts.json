@@ -1,0 +1,90 @@
+{
+  "capacity": {
+    "events_per_variable": 2.8260869565217392,
+    "inner_training_partition_size": 76,
+    "max_terms_to_outer_training_ratio": 3.1473684210526316,
+    "n_events": 65,
+    "n_non_events": 54,
+    "n_patients": 119,
+    "n_predictors": 23,
+    "non_events_per_variable": 2.347826086956522,
+    "note": "the three expanded learners carry an L1 penalty, which is what makes fitting in these spaces possible; the counts are the size of the space, not the number of terms the penalty retains",
+    "outer_training_partition_size": 95,
+    "per_learner": {
+      "Full second-order": {
+        "map": "full degree-2 expansion",
+        "n_terms": 299
+      },
+      "Quantile interactions": {
+        "map": "degree-2 interaction expansion",
+        "n_terms": 276
+      },
+      "Quantile raw features": {
+        "map": "identity",
+        "n_terms": 23
+      },
+      "Robust interactions": {
+        "map": "degree-2 interaction expansion",
+        "n_terms": 276
+      },
+      "Robust raw features": {
+        "map": "identity",
+        "n_terms": 23
+      }
+    }
+  },
+  "effective_weights": {
+    "effect_of_the_highlighted_weighting": {
+      "max_absolute_weight_change": 0.009166666666666667,
+      "statement": "replacing the highlighted 2:2:3:2 line with a plain mean and recomputing the whole collapse moves the final weights by at most this much",
+      "weights_with_the_weighting": {
+        "Full second-order": 0.22,
+        "Quantile interactions": 0.17194444444444446,
+        "Quantile raw features": 0.27194444444444443,
+        "Robust interactions": 0.06416666666666666,
+        "Robust raw features": 0.27194444444444443
+      },
+      "weights_without_it": {
+        "Full second-order": 0.22,
+        "Quantile interactions": 0.175,
+        "Quantile raw features": 0.275,
+        "Robust interactions": 0.055,
+        "Robust raw features": 0.275
+      }
+    },
+    "exact_collapse_of_first_three_lines": {
+      "max_absolute_departure_from_uniform": 0.041666666666666664,
+      "statement": "the first three lines are all linear in the same four member ranks, so their combination is exactly one weighted average of those four",
+      "uniform_reference": 0.25,
+      "weights": {
+        "Quantile interactions": 0.2361111111111111,
+        "Quantile raw features": 0.2361111111111111,
+        "Robust interactions": 0.2916666666666667,
+        "Robust raw features": 0.2361111111111111
+      }
+    },
+    "linearized_whole": {
+      "statement": "the later lines rank intermediate nodes, so this reading is first order; it shows which members the structure emphasises, not an exact identity",
+      "uniform_reference": 0.2,
+      "weights": {
+        "Full second-order": 0.22,
+        "Quantile interactions": 0.17194444444444446,
+        "Quantile raw features": 0.27194444444444443,
+        "Robust interactions": 0.06416666666666666,
+        "Robust raw features": 0.27194444444444443
+      }
+    }
+  },
+  "generated_at_utc": "2026-08-14T14:37:05.330574+00:00",
+  "sensitisation_definitions": {
+    "descriptive_tables": {
+      "threshold": "class 1 or above",
+      "used_for": "the baseline characteristic tables, which report the proportion of patients sensitised to at least one allergen in each panel"
+    },
+    "modelled_predictors": {
+      "threshold": "class 2 or above",
+      "used_for": "the sensitisation predictors entering every model, where a higher threshold was judged the more clinically meaningful definition of a positive test"
+    },
+    "statement_for_the_manuscript": "Two sensitisation thresholds are used and each is stated where it applies: the descriptive tables count a class of 1 or above as positive, whereas every modelled sensitisation predictor counts a class of 2 or above."
+  }
+}

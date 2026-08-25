@@ -1,0 +1,6 @@
+Comparator,ΔAUROC (95% CI),DeLong p-value,DeLong p-value (Holm-adjusted),Discordant correct (framework only /comparator only),McNemar p-value (Holm-adjusted)
+Logistic regression,+0.061 (0.014–0.111),0.012,0.012,19 / 4,0.005
+SVM (RBF kernel),+0.138 (0.076–0.205),<0.001,<0.001,22 / 5,0.005
+Random forest,+0.166 (0.095–0.242),<0.001,<0.001,24 / 8,0.007
+LightGBM,+0.199 (0.123–0.279),<0.001,<0.001,28 / 6,0.001
+XGBoost,+0.245 (0.161–0.331),<0.001,<0.001,28 / 6,0.001

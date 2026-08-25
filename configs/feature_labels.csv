@@ -1,0 +1,25 @@
+internal_name,print_label,definition
+"음식/식품 관련 알레르겐
+(Egg White, Milk, Soy bean, Maize, Sesame, Crab, Shrimp, Potato, Apple, Cacao, Peach, Mackerel)","Food allergen sensitisation","maximum sensitization class for the food allergen panel (egg white, milk, soy, maize, sesame, crab, shrimp, potato, apple, cacao, peach, mackerel)"
+fe_allergen_panel_mean,"Allergen panel, mean",mean maximum sensitization class across the seven allergen panels
+fe_allergen_panel_count_nonzero,Number of positive allergen tests,"count of individual allergens with a sensitization class of 2 or above, summed across the seven allergen panels; set to zero where the panel was not performed"
+fe_allergy_burden,Atopic comorbidity count,history of allergic rhinitis + asthma + other allergy (0-3)
+fe_prev_treatment_count,Number of prior treatments,"count of prior treatments recorded, out of five: topical corticosteroid, topical calcineurin inhibitor, systemic corticosteroid, cyclosporine and methotrexate"
+fe_subcomp_max,Worst EASI sign score,"maximum of the erythema, papulation, excoriation and lichenification scores"
+fe_hn_easi_ratio,Head-and-neck EASI share,baseline head-and-neck EASI / baseline total EASI
+Total IgE,Total IgE,baseline serum total IgE
+Scalp eczema,Scalp eczema,scalp involvement at baseline (yes/no)
+Albumin,Albumin,baseline serum albumin
+ALT,ALT,baseline alanine aminotransferase
+AST,AST,baseline aspartate aminotransferase
+CRP,CRP,baseline C-reactive protein
+WBC count,Leukocyte count,baseline white-blood-cell count
+Creatinine,Creatinine,baseline serum creatinine
+eGFR,eGFR,estimated glomerular filtration rate
+Onset age,Age at disease onset,age at atopic dermatitis onset
+Age,Age,age at baseline
+Baseline Trunk EASI,Trunk EASI,baseline trunk EASI subscore
+Baseline H&N EASI,Head-and-neck EASI,baseline head-and-neck EASI subscore
+Hx of Other allergies,Other allergy history,history of allergy other than rhinitis or asthma
+Hx of Dyslipidemia,Dyslipidaemia history,dyslipidemia in the past medical history
+Previous treatment of cyclosporine,Prior ciclosporin,cyclosporine among the previous systemic treatments

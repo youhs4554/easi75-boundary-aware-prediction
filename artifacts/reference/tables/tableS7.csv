@@ -1,0 +1,8 @@
+Model,Discrimination,Classification,Classification,Classification
+Model,AUROC (95% CI),Sens.,Spec.,F1
+Our framework,0.799 (0.690–0.889),0.703,0.769,0.722
+Logistic regression,0.721 (0.598–0.828),0.595,0.590,0.587
+SVM (RBF kernel),0.629 (0.495–0.751),0.514,0.641,0.543
+Random forest,0.633 (0.498–0.754),0.568,0.590,0.568
+LightGBM,0.584 (0.450–0.711),0.486,0.590,0.507
+XGBoost,0.550 (0.417–0.677),0.622,0.410,0.554

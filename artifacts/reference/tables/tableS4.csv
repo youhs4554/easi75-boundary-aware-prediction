@@ -1,0 +1,4 @@
+Model output,Brier score (↓),ECE (↓),Calibration slope (95% CI; ideal = 1),Calibration intercept (95% CI; ideal = 0),Hosmer–Lemeshow χ² (df = 8),p-value
+no recalibration,0.173,0.061,1.062 (0.745–1.537),0.285 (-0.183 to 0.774),18.9,0.015
+After logistic recalibration,0.178,0.067,1.495 (1.032–2.136),-0.035 (-0.526 to 0.428),12.7,0.121
+After isotonic recalibration,0.172,0.048,1.328 (0.924–1.975),-0.063 (-0.559 to 0.413),5.3,0.728

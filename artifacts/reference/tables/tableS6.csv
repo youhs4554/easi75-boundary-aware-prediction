@@ -1,0 +1,24 @@
+Rank,Variable,Mean absolute contribution,Share of total
+1,Number of positive allergen tests,0.0991,12.1%
+2,Food allergen sensitisation,0.0872,10.7%
+3,"Allergen panel, mean",0.0834,10.2%
+4,Atopic comorbidity count,0.0638,7.8%
+5,Total IgE,0.0632,7.7%
+6,Scalp eczema,0.0549,6.7%
+7,Number of prior treatments,0.0458,5.6%
+8,ALT,0.0444,5.4%
+9,Albumin,0.0424,5.2%
+10,Creatinine,0.0329,4.0%
+11,Prior ciclosporin,0.0285,3.5%
+12,AST,0.0258,3.2%
+13,Age at disease onset,0.0229,2.8%
+14,Head-and-neck EASI share,0.0206,2.5%
+15,Age,0.0155,1.9%
+16,Other allergy history,0.0149,1.8%
+17,Head-and-neck EASI,0.0146,1.8%
+18,Leukocyte count,0.0136,1.7%
+19,Worst EASI sign score,0.0109,1.3%
+20,eGFR,0.0107,1.3%
+21,CRP,0.0089,1.1%
+22,Trunk EASI,0.0074,0.9%
+23,Dyslipidaemia history,0.0044,0.5%

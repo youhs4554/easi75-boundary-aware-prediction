@@ -1,0 +1,38 @@
+Variable,Overall (n = 119),Responder (n = 65),Non-responder (n = 54),p-value
+"Male sex, n (%)",87 (73.1),45 (69.2),42 (77.8),0.401
+"Age, mean ± SD, years",24.08 ± 8.51,23.74 ± 8.49,24.50 ± 8.58,0.629
+"Onset age, mean ± SD, years †",9.97 ± 9.30,10.80 ± 10.09,8.94 ± 8.24,0.392
+"Disease duration, mean ± SD, months",191.0 ± 108.7,180.2 ± 99.3,203.6 ± 118.5,0.276
+"Past atopic history, n (%)",,,,
+Allergic rhinitis,28 (23.5),13 (20.0),15 (27.8),0.436
+Asthma,10 (8.4),2 (3.1),8 (14.8),0.049*
+Other allergies,17 (14.3),5 (7.7),12 (22.2),0.046*
+"Previous treatment, n (%)",,,,
+Topical corticosteroid,102 (85.7),55 (84.6),47 (87.0),0.910
+Topical calcineurin inhibitor,39 (32.8),19 (29.2),20 (37.0),0.480
+Systemic corticosteroid,22 (18.5),12 (18.5),10 (18.5),1.000
+Cyclosporine,99 (83.2),50 (76.9),49 (90.7),0.078
+Methotrexate,8 (6.7),4 (6.2),4 (7.4),1.000
+"Baseline EASI, mean ± SD",21.49 ± 6.36,20.61 ± 6.28,22.54 ± 6.35,0.102
+"Regional EASI subscore, mean ± SD",,,,
+Head and neck,1.59 ± 0.86,1.53 ± 0.89,1.65 ± 0.82,0.461
+Upper extremities,3.64 ± 1.61,3.58 ± 1.65,3.70 ± 1.56,0.689
+Trunk,8.00 ± 3.05,7.86 ± 2.82,8.17 ± 3.34,0.585
+Lower extremities,8.27 ± 3.79,7.64 ± 3.87,9.01 ± 3.58,0.047*
+"EASI symptom subscore, mean ± SD",,,,
+Erythema,5.99 ± 1.81,5.68 ± 1.73,6.36 ± 1.86,0.044*
+Papulation,4.92 ± 1.55,4.71 ± 1.60,5.18 ± 1.46,0.101
+Excoriation,5.23 ± 2.09,4.92 ± 1.94,5.60 ± 2.21,0.078
+Lichenification,5.36 ± 1.56,5.31 ± 1.61,5.42 ± 1.51,0.701
+"Baseline BSA, mean ± SD, %",37.67 ± 12.69,36.09 ± 12.11,39.57 ± 13.22,0.140
+"Baseline IGA, n (%)",,,,0.293
+2,28 (23.5),18 (28.6),10 (18.9),
+3,36 (30.3),21 (33.3),15 (28.3),
+4,55 (46.2),26 (41.3),29 (54.7),
+"Baseline pruritus NRS, mean ± SD †",6.09 ± 2.10,6.17 ± 2.30,6.00 ± 1.88,0.702
+"Baseline DLQI, mean ± SD †",16.95 ± 6.45,17.90 ± 6.12,15.82 ± 6.83,0.341
+"Laboratory findings, mean ± SD",,,,
+"Total eosinophil count, /µL",721.5 ± 566.7,705.5 ± 594.3,740.7 ± 536.4,0.735
+"Total IgE, IU/mL",3030 ± 1943,2650 ± 1862,3496 ± 1956,0.019*
+"LDH, IU/L †",280.7 ± 73.7,278.2 ± 83.6,282.7 ± 65.3,0.809
+"EASI improvement at week 16, mean ± SD, %",76.11 ± 11.18,84.17 ± 5.43,66.40 ± 8.19,<0.001*

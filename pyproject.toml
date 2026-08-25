@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+
+[project]
+name = "easi75-boundary-aware-prediction"
+version = "1.0.0"
+description = "Reproducibility code for boundary-aware EASI-75 response prediction"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+dependencies = [
+  "lightgbm==4.6.0",
+  "matplotlib==3.10.9",
+  "numba==0.65.1",
+  "numpy==2.4.4",
+  "openpyxl==3.1.5",
+  "pandas==2.3.3",
+  "pyarrow==19.0.1",
+  "scikit-learn==1.6.1",
+  "scipy==1.17.1",
+  "shap==0.51.0",
+  "xgboost==2.1.4",
+]
+
+[dependency-groups]
+dev = [
+  "pytest==8.4.2",
+  "ruff==0.15.12",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/atopix_ml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "scripts"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

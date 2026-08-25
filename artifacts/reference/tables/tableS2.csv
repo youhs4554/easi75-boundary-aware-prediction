@@ -1,0 +1,24 @@
+#,Variable,Definition
+1,Food allergen sensitisation,"maximum sensitisation class for the food allergen panel (egg white, milk, soy, maize, sesame, crab, shrimp, potato, apple, cacao, peach, mackerel)"
+2,"Allergen panel, mean",mean maximum sensitisation class across the seven allergen panels
+3,Number of positive allergen tests,"count of individual allergens with a sensitisation class of 2 or above, summed across the seven allergen panels"
+4,Atopic comorbidity count,history of allergic rhinitis + asthma + other allergy (0-3)
+5,Number of prior treatments,"count of prior treatments recorded, out of five: topical corticosteroid, topical calcineurin inhibitor, systemic corticosteroid, ciclosporin and methotrexate"
+6,Worst EASI sign score,"maximum of the erythema, papulation, excoriation and lichenification scores"
+7,Head-and-neck EASI share,baseline head-and-neck EASI / baseline total EASI
+8,Total IgE,baseline serum total IgE
+9,Scalp eczema,scalp involvement at baseline (yes/no)
+10,Albumin,baseline serum albumin
+11,ALT,baseline alanine aminotransferase
+12,AST,baseline aspartate aminotransferase
+13,CRP,baseline C-reactive protein
+14,Leukocyte count,baseline white-blood-cell count
+15,Creatinine,baseline serum creatinine
+16,eGFR,estimated glomerular filtration rate
+17,Age at disease onset,age at atopic dermatitis onset
+18,Age,age at baseline
+19,Trunk EASI,baseline trunk EASI subscore
+20,Head-and-neck EASI,baseline head-and-neck EASI subscore
+21,Other allergy history,history of allergy other than rhinitis or asthma
+22,Dyslipidaemia history,dyslipidaemia in the past medical history
+23,Prior ciclosporin,ciclosporin among the previous systemic treatments
